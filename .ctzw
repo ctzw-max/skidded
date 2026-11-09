@@ -323,12 +323,12 @@ shared["adderall"] = {
         },
     },
     ['Backtrack'] = {
-        ['Enabled'] = false,
-        ['Length'] = 0.2,
+        ['Enabled'] = true,
+        ['Length'] = 0.4,
         ['Record Rate'] = 30,
         ['Aim At Backtrack'] = false,
         ['Emulated Backtrack'] = {
-            ['Enabled'] = false,
+            ['Enabled'] = true,
         },
         ['Visualize'] = {
             ['Enabled'] = false,
@@ -348,7 +348,7 @@ shared["adderall"] = {
             ['Health'] = {
                 ['Enabled'] = true,
                 ['Mode'] = 'All', --// all, target
-                ['Position'] = 'Bottom', --// right, bottom, upper
+                ['Position'] = 'left', --// right, bottom, upper
             },
             ['Armor'] = {
                 ['Enabled'] = false,
@@ -373,7 +373,7 @@ shared["adderall"] = {
             },
             ['Names'] = {
                 ['Enabled'] = true,
-                ['Position'] = 'Bottom', --// right, bottom, upper
+                ['Position'] = 'upper', --// right, bottom, upper
             },
         },
         ['Fonts'] = {
